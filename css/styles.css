@@ -1,0 +1,38 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+span{
+    color: #4D5AE5;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16; /* 116.667% */
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+
+.header-logo{
+    color: #2E2F42;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16; /* 116.667% */
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+
+.header-menu-link{
+    color: #2E2F42;
+/* Body Medium */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.50; /* 150% */
+letter-spacing: -0.02em;
+}
