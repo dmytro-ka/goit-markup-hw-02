@@ -47,7 +47,7 @@ letter-spacing: 0.02em;
 .address{
     font-style: normal;
 }
-.address-mail{
+.address-link{
     color: #434455;
 /* Body */
 font-size: 16px;
@@ -55,18 +55,7 @@ font-weight: 400;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.02em;
 }
-.address-mail:focus, .address-mail:hover{
-    color:  #404BBF;
-}
-.address-tel{
-    color: #434455;
-/* Body */
-font-size: 16px;
-font-weight: 400;
-line-height: 1.50; /* 150% */
-letter-spacing: 0.02em;
-}
-.address-tel:focus, .address-tel:hover{
+.address-link:focus, .address-link:hover{
     color:  #404BBF;
 }
 
@@ -91,6 +80,7 @@ font-weight: 500;
 line-height: 1.50; /* 150% */
 letter-spacing: 0.04em;
 background: var(--IRIS, #4D5AE5);
+cursor: pointer;
 
 }
 .hero_order_btn:focus, .hero_order_btn:hover{
