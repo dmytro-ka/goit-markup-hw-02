@@ -190,7 +190,7 @@ text-transform: capitalize;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.20; /* 120% */
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
 }
 .portfolio-link-item-text {
     color: var(--SLATE, #434455);
