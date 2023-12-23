@@ -15,16 +15,17 @@ span{
 font-size: 18px;
 font-weight: 700;
 line-height: 1.16; /* 116.667% */
-letter-spacing: -0.03em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .header-logo{
     color: #2E2F42;
+    font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.16; /* 116.667% */
-letter-spacing: -0.03em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
@@ -34,5 +35,161 @@ text-transform: uppercase;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50; /* 150% */
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
+}
+
+.address-list{
+    color: #434455;
+/* Body */
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.32px;
+}
+.address-list:focus, .address-list:hover{
+    color:  #404BBF;
+}
+
+/*-------HERo--------  */
+.hero {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.hero_title {
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; /* 107.143% */
+letter-spacing: 0.02em;
+    
+}
+.hero_order_btn {
+    color: var(--WHITE, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.04em;
+cursor: pointer;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+/* --------------------- */
+
+.benefits {
+    background: #FFF;
+}
+
+.benefits-title {
+}
+
+.benefits-list {
+
+}
+
+.benefits-item {
+}
+
+.benefits-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20; /* 120% */
+    letter-spacing: 0.2em;
+}
+
+.benefits-item-text {
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.2em;
+}
+/* ========================= */
+
+.team {
+}
+.team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.2em;
+text-transform: capitalize;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-item-img{
+}
+.team-list-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20; /* 120% */
+letter-spacing: 0.2em;
+}
+.team-list-item-text {
+    color: #434455;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.2em;
+}
+/* ======================== */
+
+.portfolio {
+    background: #FFF;
+}
+.portfolio-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.2em;
+text-transform: capitalize;
+}
+.portfolio-link {
+}
+.portfolio-link-item {
+}
+.portfolio-link-item-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20; /* 120% */
+letter-spacing: 0.2em;
+}
+.portfolio-link-item-text {
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.2em;
+}
+/* ============================= */
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.footer-logo {
+    color: var(--CLOUD, #F4F4FD);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16; /* 116.667% */
+letter-spacing: 0.3em;
+text-transform: uppercase;
+}
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; /* 150% */
+letter-spacing: 0.2em;
 }
